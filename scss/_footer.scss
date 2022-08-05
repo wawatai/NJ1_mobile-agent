@@ -1,0 +1,92 @@
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.agentP {
+    width: 100%;
+    height: auto;
+    background: $gameWrapBG;
+    padding-top: 105px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    .title {
+        display: inline;
+        color: $mainFont_1;
+        font-size: 36px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 38px 0 ;
+    }
+
+    .subTitle {
+        display: inline;
+        font-size: 16px;
+        font-weight: bolder;
+        color: $mainFont_3;
+        position: relative;
+        
+
+        &::before {
+            content: " ";
+            background: $Border;
+            width: 40%;
+            height: 1px;
+            position: absolute;
+            top: 8px;
+            left: 403px;
+        }
+
+        &::after {
+            content: " ";
+            background: $Border;
+            width: 40%;
+            height: 1px;
+            position: absolute;
+            top: 8px;
+            right: 403px;
+        }
+    }
+
+    button {
+        width: 349px;
+        height: 64px;
+        @include mainBtn;
+        border-radius: 34px;
+        font-size: 25px;
+        font-weight: bolder;
+        margin: 73px auto;
+    }
+
+    .bottom {
+        width: 100%;
+        height: 100px;
+        background: $secondBG;
+        padding-top: 37px;
+        box-sizing: border-box;
+
+        .copyright {
+            color: $mainFont_1;
+            text-align: center;
+        }
+    }
+}
+.agOther {
+    .bottom {
+        width: 100%;
+        height: 100px;
+        background: $secondBG;
+        padding: 40px;
+        box-sizing: border-box;
+
+        .copyright {
+            color: $mainFont_1;
+            text-align: center;
+        }
+    }
+}
