@@ -612,41 +612,15 @@ footer .partner .evo {
 
 //logo
 header .logo {
-    width: 190px;
-    height: 80px;
+    height: 100%;
     object-fit: cover;
 }
-//header 下拉選單
-header .topGameList li div {
-    width: 195px;
-    height: 168px;
-    box-sizing: border-box;
-    padding: 0 8px;
 
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
-}
-header .topGameList .hot li div {
-    width: 257px;
-    height: 171px;
-    box-sizing: border-box;
-    padding: 0 8px;
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: solid 1px #ffc13c;
-        border-radius: 5px;
-    }
-}
 //banner
 .single-item img {
+
     width: 100%;
-    max-height: 478px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -797,7 +771,7 @@ header .topGameList .hot li div {
 }
 
 .agentPage .rulePic {
-    background: url('../images/icon/rule.png') no-repeat;
+    background: url('../images/mobile_agentInfo.png') no-repeat;
     background-size: 100%;
 }
 
@@ -810,4 +784,10 @@ header .topGameList .hot li div {
 .agOther {
     background: url('../images/agentBG.png') no-repeat;
     background-size: cover;
+}
+
+//手機版
+.agentPage footer .agentNav .nav_IC {
+    background: url('../images/icon/footer_IC.png') no-repeat;
+    background-size: 500%;
 }

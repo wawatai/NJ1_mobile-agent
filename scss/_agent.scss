@@ -3,27 +3,31 @@
 
     .topBanner {
         width: 100%;
-        height: 0;
-        padding-top: 26%;
-        margin-top: -50px;
+        height: auto;
+        overflow: hidden;
+        justify-content: center;
+        padding-top: 16%;
+        margin-top: -84px;
     }
 
     .center {
-        width: 1400px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
+        padding: 0 6vw;
+        box-sizing: border-box;
        
             .client {
-                width: 1400px;
+                width: 100%;
                 height: auto;
-                padding: 65px 0;
+                padding: 12vw 0;
 
                 .title {
                     color: $mainFont_1;
-                    font-size: 36px;
+                    font-size: 7vw;
                     font-weight: bolder;
                     text-align: center;
-                    margin-bottom: 38px ;
+                    margin-bottom: 7vw;
                     position: relative;
 
                     &::before {
@@ -31,8 +35,8 @@
                         width: 72px;
                         height: 36px;
                         position: absolute;
-                        top: 0px;
-                        left: 531px;
+                        top: -1vw;
+                        left: 6vw;
                         background-position-x: 0%;
                     }
                     &::after {
@@ -41,210 +45,277 @@
                         width: 72px;
                         height: 36px;
                         position: absolute;
-                        top: 0px;
-                        right: 531px;
+                        top: -1vw;
+                        right: 6vw;
                         background-position-x: 100%;
                     }
                 }
                 .subTitle {
-                    font-size: 16px;
+                    font-size: 5vw;
                     font-weight: bolder;
                     color: $mainFont_3;
                     line-height: 30px;
                     text-align: center;
                 }
+                     
+                .long {
+                    width: 89vw; 
+                    height: auto ;
+                    padding: 3vw;
+                    box-sizing: border-box;
+                    background: $secondBG;
+                    border-radius: 10px;
+                    margin: 5vw 0;
 
-                .block {
-                    width: 100%;
-                    height: 839px;
-                    margin: 53px 0 60px;
-                    
-                    .line {
+                    .top {
                         width: 100%;
-                        height: 50%;
-                        display: flex;
-                        justify-content: space-between;
-                        margin-bottom: 20px;
+                        height: 22vw;
+                        display: flex; 
+                        justify-content: space-around;
+                        position: relative;
 
-                        
-                        .long {
-                            width: 868px; 
-                            height: auto ;
-                            padding: 43px 30px;
-                            background: $secondBG;
-                            border-radius: 10px;
+                        .main {
+                            font-size: 4.5vw;
+                            color: $money;
+                            font-weight: bloder;
+                            text-align: center;
+                        }
+                        .sub {
+                            font-size: 3vw;
+                            color: $disable;
+                            font-weight: bold;
+                            line-height: 4vw;
+                            text-align: left;
+                        }
 
-                            .top {
-                                width: 100%;
-                                height: 148px;
-                                display: flex; 
-                                justify-content: space-around;
-                                position: relative;
+                        .icon_1 {
+                            width: 15vw;
+                            height: auto;
+                        }
 
-                                .main {
-                                    font-size: 35px;
-                                    color: $money;
-                                    font-weight: bloder;
-                                    text-align: center;
-                                }
-                                .sub {
-                                    font-size: 18px;
-                                    color: $disable;
-                                    font-weight: bold;
-                                    text-align: center;
-                                }
-
-                                .icon_1 {
-                                    width: 121px;
-                                    height: 107px;
-                                }
-
-                                div {
-                                    .main {
-                                        margin: 26px auto;
-                                    }
-                                }
-
-                                &::after {
-                                    content: " ";
-                                    background: $Border;
-                                    width: 100%;
-                                    height: 1px;
-                                    position: absolute;
-                                    bottom: 0;
-                                    left: 0;
-                                }
-                            }
-
-                            .down {
-                                display: flex;
-                                justify-content: space-around;
-
-                                .item {
-                                    width: 286px;
-                                    height: 182px;
-                                    position: relative;
-
-                                    .num {
-                                        color: $mainFont_1;
-                                        font-size: 50px;
-                                        font-weight: bolder;
-                                        text-align: center;
-                                        margin-top: 50px;
-                                    }
-
-                                    .info {
-                                        color: $mainFont_2;
-                                        font-size: 20px;
-                                        line-height: 35px;
-                                        text-align: center;
-                                        margin-top: 20px;
-                                    }
-                                    &::after {
-                                        content: "";
-                                        width: 1px;
-                                        height: 165px;
-                                        background: $Border;
-                                        position: absolute;
-                                        top: 34px;
-                                        right: 0;  
-                                    }  
-                                    &:last-child {
-                                        &::after {
-                                            display: none;
-                                        }
-                                    }
-                                }
+                        div {
+                            .main {
+                                margin: 2vw auto;
                             }
                         }
 
-                        .box {
-                            width: 394px;
-                            height: auto;
-                            background: $secondBG;
-                            border-radius: 10px;
-                            padding: 50px 30px;
+                        &::after {
+                            content: " ";
+                            background: $Border;
+                            width: 100%;
+                            height: 1px;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+
+                    .down {
+                        display: flex;
+                        //justify-content: space-around;
+
+                        .item {
+                            width: auto;
+                            height: 29vw;
+                            padding: 1vw 3vw;
+                            box-sizing: border-box;
                             position: relative;
 
-                            .main {
-                                font-size: 35px;
-                                color: $money;
-                                font-weight: bloder;
+                            .num {
+                                color: $mainFont_1;
+                                font-size: 6.5vw;
+                                font-weight: bolder;
                                 text-align: center;
-                                margin-top: 185px;
-                            }
-                            .sub {
-                                font-size: 18px;
-                                color: $disable;
-                                font-weight: bold;
-                                line-height: 30px;
-                                text-align: center;
-                                margin-top: 30px;
+                                margin-top: 5vw;
                             }
 
-                            i {
-                                width: 121px;
-                                height: 121px;
+                            .info {
+                                color: $mainFont_2;
+                                font-size: 3vw;
+                                line-height: 5vw;
+                                text-align: center;
+                                margin-top: 2vw;
+                            }
+                            &::after {
+                                content: "";
+                                width: 1px;
+                                height: 18vw;
+                                background: $Border;
                                 position: absolute;
-                                top: 54px;
-                                left: 168px;
+                                top: 5vw;
+                                right: 0;  
+                            }  
+                            &:last-child {
+                                &::after {
+                                    display: none;
+                                }
                             }
                         }
                     }
-                }
+                        }
+
+                        .box {
+                            width: 89vw;
+                            height: 28vw;
+                            background: $secondBG;
+                            border-radius: 10px;
+                            display: flex;
+                            padding: 5vw 6vw;
+                            box-sizing: border-box;
+                            margin-bottom: 5vw;
+                            position: relative;
+
+                            i {
+                                width: 19vw;
+                                height: 19vw;
+                                margin: 1vw 0 0;
+                            }
+                            
+                            .textBox {
+                               width: 56vw;
+                               margin-left: 8vw;
+
+                                .main {
+                                    font-size: 4.5vw;
+                                    color: $money;
+                                    font-weight: bloder;
+                                    text-align: left;
+                                }
+                                .sub {
+                                    font-size: 2vw;
+                                    color: $disable;
+                                    font-weight: bold;
+                                    line-height: 4vw;
+                                    text-align: left;
+                                    margin-top: 2vw;
+                                }
+                            }  
+                        }
+                    
+            
             }
   
-        .rulePic {
-            width: 1400px;
-            height: 617px;
-            margin-top: 50px;
-            align-items: center;
-            position: relative;
-        }
+
     }
-    .commission {
-        width: 100%;
-        height: auto;
-        background: $secondBG;
-        padding: 97px 0;
-        position: relative;
+    .bottomArea {
+        width: auto;
+        height: 53vw;
+        padding: 12vw 6vw;
 
         .title {
             color: $mainFont_1;
-            font-size: 36px;
+            font-size: 7vw;
             font-weight: bolder;
             text-align: center;
-            margin-bottom: 38px;
+            margin: 0 0 11vw 0 ;
+        }
+    
+        .subTitle {
+            font-size: 5vw;
+            font-weight: bolder;
+            text-align: center;
+            color: $mainFont_3;
             position: relative;
-
-            &::before {
-                content: "";
-                width: 72px;
-                height: 36px;
-                position: absolute;
-                top: 0px;
-                left: 503px;
-                background-position-x: 0%;
-            }
             
-            &::after {
-                content: "";
-                content: "";
-                width: 72px;
-                height: 36px;
+    
+            &::before {
+                content: " ";
+                background: $Border;
+                width: 25vw;
+                height: 1px;
                 position: absolute;
-                top: 0px;
-                right: 503px;
-                background-position-x: 100%;
+                top: 8vw;
+                left: 2vw;
+            }
+    
+            &::after {
+                content: " ";
+                background: $Border;
+                width: 25vw;
+                height: 1px;
+                position: absolute;
+                top: 8vw;
+                right: 2vw;
             }
         }
-
-        .subTitle {
-            font-size: 16px;
+    
+        button {
+            width: 58vw;
+            height: 11vw;
+            @include mainBtn;
+            border-radius: 2vw;
+            font-size: 5vw;
             font-weight: bolder;
-            color: $mainFont_3;
-            line-height: 30px;
-            text-align: center;
+            margin: 10vw 15vw;
+        }
+
+        .bottom {
+            width: 100%;
+            height: 20vw;
+            .copyright {
+                font-size: 4vw;
+                color: $disable;
+                text-align: center;
+                margin-top: 10vw;
+            }
+        }
+    }
+
+    .commission {
+        height: 230vw;
+        background: $secondBG;
+        padding: 0 6vw;
+        position: relative;
+
+        .center {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            padding: 15vw 0 0;
+            //box-sizing: border-box;
+
+            .title {
+                color: $mainFont_1;
+                font-size: 7vw;
+                font-weight: bolder;
+                text-align: center;
+                margin-bottom: 7vw ;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    width: 72px;
+                    height: 36px;
+                    position: absolute;
+                    top: -1vw;
+                    left: 2vw;
+                    background-position-x: 0%;
+                }
+                &::after {
+                    content: "";
+                    content: "";
+                    width: 72px;
+                    height: 36px;
+                    position: absolute;
+                    top: -1vw;
+                    right: 2vw;
+                    background-position-x: 100%;
+                }
+            }
+            .subTitle {
+                font-size: 5vw;
+                font-weight: bolder;
+                color: $mainFont_3;
+                line-height: 30px;
+                text-align: center;
+            }
+            .rulePic {
+                width: auto;
+                height: 172vw;
+                margin-top: 9vw;
+                align-items: center;
+                position: relative;
+            }
         }
     }
 }
