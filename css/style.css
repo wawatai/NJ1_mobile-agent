@@ -805,7 +805,9 @@ header .logo {
 .agentPage .title::before,
 .agentPage .title::after,
 .agOther .title::before,
-.agOther .title::after {
+.agOther .title::after,
+.agOther .pageTitle::before,
+.agOther .pageTitle::after {
   background: url("../images/icon/agentTitle.png") no-repeat;
   background-size: 200%;
 }
@@ -853,8 +855,8 @@ header .logo {
 }
 
 .agOther {
-  background: url("../images/agentBG.png") no-repeat;
-  background-size: cover;
+  background: url("../images/mobileBG.png") no-repeat;
+  background-size: 100%;
 }
 
 .agentP .agentNav li i {
@@ -990,8 +992,8 @@ html body header .content {
   position: relative;
 }
 html body header .content .lang {
-  width: 23vw;
-  height: 30px;
+  width: 84px;
+  height: 32px;
   border: 2px solid #ffc13c;
   border-radius: 5px;
   padding: 0;
@@ -1023,7 +1025,7 @@ html body header .content .lang select {
      -moz-appearance: none;
           appearance: none;
   cursor: pointer;
-  padding: 4px 4px 0 11px;
+  padding: 6px 4px 0 11px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1102,7 +1104,7 @@ html body .agentP {
 }
 html body .agentP .agentNav {
   width: 100%;
-  height: 90px;
+  height: 22vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1111,6 +1113,7 @@ html body .agentP .agentNav {
   left: 0;
   z-index: 100;
   background: #191919;
+  border-top: 2px solid #ff4719;
 }
 html body .agentP .agentNav li {
   width: 20vw;
@@ -2755,372 +2758,96 @@ html body .agentPage .commission .center .rulePic {
 html body .agOther {
   width: 100%;
   height: auto;
-  margin-top: -50px;
 }
 html body .agOther .topBanner {
-  width: 100%;
-  height: 0;
-  padding-top: 26%;
-  margin-top: -50px;
+  height: 30vw;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15%;
+  margin-top: 1vw;
 }
 html body .agOther .center {
-  width: 1400px;
-  min-width: 1400px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
+  padding: 0 6vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-html body .agOther .center .agRule {
+html body .agOther .center .agList {
+  width: 100%;
+  height: calc(100vh - 164px);
+}
+html body .agOther .center .agList .pageTitle {
+  color: #ffc13c;
+  font-size: 7vw;
+  font-weight: bolder;
+  text-align: center;
+  margin: 7vw 0;
+  position: relative;
+}
+html body .agOther .center .agList .pageTitle::before {
+  content: "";
+  width: 57px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: 6vw;
+  background-position-x: 0%;
+}
+html body .agOther .center .agList .pageTitle::after {
+  content: "";
+  content: "";
+  width: 57px;
+  height: 36px;
+  position: absolute;
+  top: 0vw;
+  right: 6vw;
+  background-position-x: 100%;
+}
+html body .agOther .center .agList ul {
   width: 100%;
   height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 4vw;
+  position: relative;
+}
+html body .agOther .center .agList ul li {
+  width: auto;
+  height: 42px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-html body .agOther .center .agRule .leftArea {
-  width: 30%;
-  height: center;
-  position: relative;
-}
-html body .agOther .center .agRule .leftArea ul {
-  display: table;
-  border-left: 9px solid #2e2e2e;
-  border-radius: 3px;
-  padding-left: 35px;
-  margin: 130px 0 0 86px;
-  position: relative;
-}
-html body .agOther .center .agRule .leftArea ul li {
-  width: auto;
-  height: 70px;
-  color: #999999;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  cursor: pointer;
-}
-html body .agOther .center .agRule .leftArea ul li:hover, html body .agOther .center .agRule .leftArea ul li:active, html body .agOther .center .agRule .leftArea ul li.active {
-  color: #ffc13c;
-}
-html body .agOther .center .agRule .leftArea ul li:hover::before, html body .agOther .center .agRule .leftArea ul li:active::before, html body .agOther .center .agRule .leftArea ul li.active::before {
-  content: "";
-  width: 53px;
-  height: 53px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #2e2e2e;
-  border-radius: 40px;
-  position: absolute;
-  top: -11px;
-  left: -66px;
-}
-html body .agOther .center .agRule .leftArea ul ::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  background: #2e2e2e;
-  border-radius: 40px;
-  position: absolute;
-  top: -1px;
-  left: -52px;
-}
-html body .agOther .center .agRule .leftArea ul ::after {
-  content: " ";
-  width: 40px;
-  height: 40px;
-  background-position-x: 50%;
-  position: absolute;
-  top: -4px;
-  left: -58px;
-}
-html body .agOther .center .agRule .rightArea {
-  width: 70%;
-  height: auto;
-  padding: 44px 0 80px;
-}
-html body .agOther .center .agRule .rightArea .title {
+  border-radius: 5px;
+  margin-bottom: 15px;
   color: #ffc13c;
-  font-size: 36px;
-  font-weight: bolder;
+  font-size: 4vw;
+  font-weight: bold;
+  position: relative;
+}
+html body .agOther .center .agList ul li:active, html body .agOther .center .agList ul li.active {
+  color: #ffc13c;
+}
+html body .agOther .bottom {
+  width: 100%;
+  height: 19vw;
+}
+html body .agOther .bottom .copyright {
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #999999;
   text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agOther .center .agRule .rightArea .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 594px;
-  background-position-x: 0%;
-}
-html body .agOther .center .agRule .rightArea .title::after {
-  content: "";
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 594px;
-  background-position-x: 100%;
-}
-html body .agOther .center .agRule .rightArea .outter {
-  width: 100%;
-  max-height: 734px;
-  background: #1f1f1f;
-  border-radius: 10px;
-  padding: 36px 29px;
-  overflow: auto;
-}
-html body .agOther .center .agRule .rightArea .outter::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-html body .agOther .center .agRule .rightArea .outter::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-html body .agOther .center .agRule .rightArea .outter::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .subTitle {
-  color: #ffc13c;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .info {
-  color: #999999;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .info .chapter {
-  color: #ffffff;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .info .keyword {
-  color: #ff4719;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .chapterBox {
-  width: 98%;
-  height: auto;
-  margin: 5px 20px;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .chapterBox .infoChapter {
-  color: #999999;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
-}
-html body .agOther .center .agRule .rightArea .outter .contentBlock .chapterBox .infoChapter .chapter {
-  color: #ffffff;
-}
-html body .agOther .center .agQA {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-html body .agOther .center .agQA .leftArea {
-  width: 30%;
-  height: center;
-  position: relative;
-}
-html body .agOther .center .agQA .leftArea ul {
-  display: table;
-  border-left: 9px solid #2e2e2e;
-  border-radius: 3px;
-  padding-left: 35px;
-  margin: 130px 0 0 86px;
-  position: relative;
-}
-html body .agOther .center .agQA .leftArea ul li {
-  width: auto;
-  height: 70px;
-  color: #999999;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  cursor: pointer;
-}
-html body .agOther .center .agQA .leftArea ul li:hover, html body .agOther .center .agQA .leftArea ul li:active, html body .agOther .center .agQA .leftArea ul li.active {
-  color: #ffc13c;
-}
-html body .agOther .center .agQA .leftArea ul li:hover::before, html body .agOther .center .agQA .leftArea ul li:active::before, html body .agOther .center .agQA .leftArea ul li.active::before {
-  width: 53px;
-  height: 53px;
-  top: -11px;
-  left: -66px;
-}
-html body .agOther .center .agQA .leftArea ul ::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  background: #2e2e2e;
-  border-radius: 40px;
-  position: absolute;
-  top: -1px;
-  left: -52px;
-}
-html body .agOther .center .agQA .leftArea ul ::after {
-  content: " ";
-  width: 40px;
-  height: 40px;
-  background-position-x: 50%;
-  position: absolute;
-  top: -4px;
-  left: -58px;
-}
-html body .agOther .center .agQA .rightArea {
-  width: 70%;
-  height: auto;
-  padding: 44px 0 80px;
-}
-html body .agOther .center .agQA .rightArea .title {
-  color: #ffc13c;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agOther .center .agQA .rightArea .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 616px;
-  background-position-x: 0%;
-}
-html body .agOther .center .agQA .rightArea .title::after {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 616px;
-  background-position-x: 100%;
-}
-html body .agOther .center .agQA .rightArea .outter {
-  width: 100%;
-  max-height: 734px;
-  background: #1f1f1f;
-  border-radius: 10px;
-  padding: 36px 29px;
-  overflow-y: auto;
-}
-html body .agOther .center .agQA .rightArea .outter::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-html body .agOther .center .agQA .rightArea .outter::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-html body .agOther .center .agQA .rightArea .outter::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock {
-  width: 100%;
-  height: auto;
-  margin-top: 177px;
-  position: relative;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock:first-child {
-  margin-top: 0;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .tiTle {
-  color: #ffc13c;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox {
-  margin-bottom: 47px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .subTitle {
-  color: #ffc13c;
-  font-size: 20px;
-  font-weight: bolder;
-  line-height: 40px;
-  margin-bottom: 10px;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .info {
-  color: #999999;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .info .chapter {
-  color: #ffffff;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .minBox .info .keyword {
-  color: #ff4719;
-}
-html body .agOther .center .agQA .rightArea .outter .contentBlock .line {
-  width: 100%;
-  height: 1px;
-  background: #b5833b;
-  position: absolute;
-  bottom: -78px;
-  left: 0;
-}
-html body .agOther .center .agPersonal {
-  width: 100%;
-  height: auto;
-  padding: 66px 0 114px;
-  position: relative;
-}
-html body .agOther .center .agPersonal .title {
-  color: #ffc13c;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 38px;
-  position: relative;
-}
-html body .agOther .center .agPersonal .title::before {
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  left: 460px;
-  background-position-x: 0%;
-}
-html body .agOther .center .agPersonal .title::after {
-  content: "";
-  content: "";
-  width: 72px;
-  height: 36px;
-  position: absolute;
-  top: 0px;
-  right: 460px;
-  background-position-x: 100%;
-}
-html body .agOther .center .agPersonal .contentBlock {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-html body .agOther .center .agPersonal .contentBlock .subTitle {
-  color: #ffc13c;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-}
-html body .agOther .center .agPersonal .contentBlock .info {
-  color: #e2e2e2;
-  font-size: 20px;
-  line-height: 40px;
-  font-weight: bold;
+  margin-top: 18vw;
 }
 html body main {
   width: 100%;

@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.25">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
@@ -16,120 +16,68 @@
 <body>
     <header>
         <!--上部-->
-        <div class="top">
-            <!--logo-->
-            <img class="logo" src="../images/icon/logo.png" onclick="window.location.href='../index.html'">
-            <ul class="agentNav">
-                <li>ホームページ</li>
-                <li onclick="window.location.href='../index.html'">AU8アフィリエイト</li>
-                <li onclick="window.location.href='../html/agRule.html'">利用規約</li>
-                <li class="active">よくある質問</li>
-                <li onclick="window.location.href='../html/agPersonal.html'">個人情報保護方針</li>
-            </ul>
-             <!--右_未登入-->
-             <ul class="user login display">
-                <!--未登入選單-->
-                <li>
-                    <form class="loginForm">
-                        <button class="agentSignup" type="button">申請します</button>
-                    </form>
-                </li>
-                <!--語言列-->
-                <li class="lang">
-                    <select>
-                        <option>繁體中文</option>
-                        <option>简体中文</option>
-                        <option>ENGLISH</option>
-                        <option selected>日本語</option>
-                    </select>
-                </li>
-            </ul>
-        </div>
-    </header>
+        <div class="content">
+           <!--語言列-->
+           <div class="lang">
+               <select>
+                   <option>繁體中文</option>
+                   <option>简体中文</option>
+                   <option>ENGLISH</option>
+                   <option selected>日本語</option>
+               </select>
+           </div>
+           <!--logo-->
+           <img class="logo" src="../images/icon/logo.png" onclick="window.location.href='../index.html'">
+           <div class="user login display">
+               <!--未登入選單-->
+                   <form class="loginForm">
+                       <button class="agentSignup" type="button">申請します</button>
+                   </form>    
+           </div>
+       </div>
+   </header>
     <main>
         <div class="agOther">
-            <div class="topBanner">
-                <div class="eventBanner"></div>
-            </div>
+            <div class="topBanner"></div>
             <!--內容-->
             <div class="center">
-                <div class="agQA">
-                    <div class="leftArea">
-                        <ul>
-                            <li class="active signin">1.登録</li>
-                            <li class="committee">2.コミッション</li>
-                            <li class="whithdraw">3.出金</li>
-                        </ul>
-                    </div>
-                    <div class="rightArea">
-                        <p class="title">よくある質問</p>
-                        <div class="outter qaOutter">
-                            <div class="contentBlock">
-                                <p class="tiTle signin">登録</p>
-                                <div class="minBox">
-                                    <p class="subTitle">1.AU8のアフィリエイトになりたいです。</p>
-                                    <p class="info">ありがとうございます！ホームページの「登録」よりご登録するようお願い申し上げます。
-                                        登録する前には必ず「利用規約」をご確認いただき、内容をご了承の上でご登録をいただきますようお願い致します。<br>
-                                        登録を申し込む時点で「利用規約」を全てご承諾いただいたものとみなします。</p>
-                                </div>
-                                <div class="minBox">
-                                    <p class="subTitle">2.登録時、「ウェブサイトのURL」を入力しなければなりませんが、サイトを持たないとアフィリエイト登録
-                                        できませんか？</p>
-                                    <p class="info">はい、登録できます。ご自身のウェブサイトを持たない場合は宣伝手段になるURL（ツイッターのURLなど）
-                                        を入力してください。もしくはAU8のホームページURL：https://fortuna888.net を入力すればAU8
-                                        アフィリエイトチームから宣伝手段の確認メールをお送り致します。</p>
-                                </div>
-                                <div class="minBox">
-                                    <p class="subTitle">3.アフィリエイトアカウントを複数作成することは可能ですか？</p>
-                                    <p class="info">いいえ、できません。お一人様につき1アカウントとさせていただいております。いかなる場合においても、
-                                        各顧客、各世帯、各アドレス、各共有コンピュータ、および共有IPアドレスごとに、1つのアカウントの
-                                        みAU8をご利用いただけます。「重複アカウント」を発見した場合は、予告なしに閉鎖することがあります。</p>
-                                </div>
-                                <i class="line"></i>
-                            </div>
-                            <div class="contentBlock">
-                                <p class="tiTle committee">コミッション</p>
-                                <div class="minBox">
-                                    <p class="subTitle">1.コミッションの支払いはいつですか？</p>
-                                    <p class="info">コミッションは毎月10日の18：00前に配布致します。
-                                        システム調整のため配布が遅れる場合もあることをご了承ください。その際には延期お知らせをお送り致
-                                        します。
-                                        万が一延期お知らせが届いておりませんが、11日の朝になってもコミッションが配布されていない場合、
-                                        お手数ですがアフィリエイトシステムのメッセージまでお気軽にご連絡ください。</p>
-                                </div>
-                                <div class="minBox">
-                                    <p class="subTitle">2.コミッションの発生原理がわかりません。レベニューシェアはなんですか？</p>
-                                    <p class="info">コミッションの計算公式は以下の通り：
-                                        （勝負値（ベット額 - ペイアウト）- ボーナス費用 - プラットフォーム費用 - ジャックポット - 手数料 ）× 
-                                        コミッション％
-                                        レベニューシェアというのは会社の利益をアフィリエイトに分けるシステムでございます。</p>
-                                </div>
-                                <i class="line"></i>
-                            </div>
-                            <div class="contentBlock">
-                                <p class="tiTle whithdraw">出金</p>
-                                <div class="minBox">
-                                    <p class="subTitle">1.出金時、プレイヤーアカウントは必要ですか？</p>
-                                    <p class="info">いいえ、必要がございません。<br>
-                                        【コミッション出金までの流れ】<br>
-                                        振込口座を提供⇨報酬支払います。</p>
-                                </div>
-                                <div class="minBox">
-                                    <p class="subTitle">2.出金するにはKYCが必要ですか？</p>
-                                    <p class="info">いいえ、必要がございません。</p>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
+                <div class="agList">
+                    <p class="pageTitle">よくある質問</p>
+                    <ul>
+                        <li class="signin">登録</li>
+                        <li class="committee">コミッション</li>
+                        <li class="whithdraw">出金</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer class="agOther">
             <div class="bottom">
                 <p class="copyright">© 2022 AU8 Affiliates. すべての権利を保有しています</p>
             </div>
-    </footer>
+        </div>
+    </main>
+    <footer class="agentP">
+        <ul class="agentNav">
+            <li>
+                <i class="nav_IC home"></i>
+                <p>ホームページ</p>
+            </li>
+            <li onclick="window.location.href='../index.html'">
+                <i class="nav_IC agent"></i>
+                <p>AU8アフィリエイト</p>
+            </li>
+            <li onclick="window.location.href='../html/agRule.html'">
+                <i class="nav_IC rule"></i>
+                <p>利用規約</p>
+            </li>
+            <li class="active" onclick="window.location.href='../html/agQA.html'">
+                <i class="nav_IC QA"></i>
+                <p>よくある質問</p>
+            </li>
+            <li onclick="window.location.href='../html/agPersonal.html'"><i class="nav_IC PP"></i>
+                <p>個人情報保護方針</p>
+            </li>
+        </ul>
+</footer>
     <div class="filter">
         <!--退傭代理註冊申請彈窗-->
         <div class="jumpWindow agRegist ">

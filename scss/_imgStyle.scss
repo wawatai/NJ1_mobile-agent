@@ -734,7 +734,9 @@ header .logo {
 .agentPage .title::before,
 .agentPage .title::after,
 .agOther .title::before,
-.agOther .title::after {
+.agOther .title::after,
+.agOther .pageTitle::before,
+.agOther .pageTitle::after {
     background: url('../images/icon/agentTitle.png') no-repeat;
     background-size: 200%;
 }
@@ -782,8 +784,8 @@ header .logo {
 }
 
 .agOther {
-    background: url('../images/agentBG.png') no-repeat;
-    background-size: cover;
+    background: url('../images/mobileBG.png') no-repeat;
+    background-size: 100%;
 }
 
 //手機版

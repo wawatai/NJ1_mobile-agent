@@ -19,8 +19,8 @@ header {
             
             //語言列
             .lang {
-                width: 23vw;
-                height: 30px;
+                width: 84px;
+                height: 32px;
                 border: 2px solid $mainFont_1;
                 border-radius: 5px;
                 padding: 0;
@@ -44,7 +44,7 @@ header {
                 
                 select {
                     @include headerLang;
-                    padding: 4px 4px 0 11px;
+                    padding: 6px 4px 0 11px;
                     box-sizing: border-box;
                 }
             }
