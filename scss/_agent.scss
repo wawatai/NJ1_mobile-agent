@@ -2,12 +2,11 @@
     background: $innerBG;
 
     .topBanner {
-        width: 100%;
-        height: auto;
+        height: 30vw;
         overflow: hidden;
         justify-content: center;
-        padding-top: 16%;
-        margin-top: -84px;
+        padding-top: 15%;
+        margin-top: 1vw;
     }
 
     .center {
@@ -20,7 +19,7 @@
             .client {
                 width: 100%;
                 height: auto;
-                padding: 12vw 0;
+                padding: 8vw 0;
 
                 .title {
                     color: $mainFont_1;
