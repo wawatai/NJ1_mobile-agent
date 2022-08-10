@@ -251,12 +251,14 @@
 
         .bottom {
             width: 100%;
-            height: 20vw;
+            height: 31vw;
+
             .copyright {
-                font-size: 4vw;
+                font-size: 3.5vw;
+                font-weight: bold;
                 color: $disable;
                 text-align: center;
-                margin-top: 10vw;
+                margin-top: 3vw;
             }
         }
     }

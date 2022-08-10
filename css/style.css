@@ -857,7 +857,7 @@ header .logo {
   background-size: cover;
 }
 
-.agentPage footer .agentNav .nav_IC {
+.agentP .agentNav li i {
   background: url("../images/icon/footer_IC.png") no-repeat;
   background-size: 500%;
 }
@@ -990,7 +990,7 @@ html body header .content {
   position: relative;
 }
 html body header .content .lang {
-  width: 20vw;
+  width: 23vw;
   height: 30px;
   border: 2px solid #ffc13c;
   border-radius: 5px;
@@ -1010,7 +1010,7 @@ html body header .content .lang::after {
   border-style: solid;
   border-width: 5px 6px 0 6px;
   border-color: #f0cc6d transparent;
-  left: 67px;
+  left: 73px;
 }
 html body header .content .lang select {
   background: #181818;
@@ -1023,7 +1023,7 @@ html body header .content .lang select {
      -moz-appearance: none;
           appearance: none;
   cursor: pointer;
-  padding: 4px 4px 1px 6px;
+  padding: 4px 4px 0 11px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1101,11 +1101,6 @@ html body .agentP {
       -ms-flex-pack: center;
           justify-content: center;
 }
-html body .agentP .center {
-  padding: 0 6vw;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 html body .agentP .agentNav {
   width: 100%;
   height: 90px;
@@ -1119,7 +1114,7 @@ html body .agentP .agentNav {
   background: #191919;
 }
 html body .agentP .agentNav li {
-  width: auto;
+  width: 20vw;
   height: 30vw;
   color: #ffc13c;
   font-weight: bold;
@@ -1132,27 +1127,28 @@ html body .agentP .agentNav li:active, html body .agentP .agentNav li.active {
   color: #ff4b33;
 }
 html body .agentP .agentNav li:active i, html body .agentP .agentNav li.active i {
-  background-position-y: 100%;
+  background-position-y: 108%;
 }
-html body .agentP .agentNav li i {
-  width: 12vw;
-  height: 9vw;
+html body .agentP .agentNav li .nav_IC {
+  width: 10vw;
+  height: 11vw;
   display: block;
+  margin: 0 1vw;
 }
-html body .agentP .agentNav li i.home {
-  background-position-x: 0%;
+html body .agentP .agentNav li .nav_IC.home {
+  background-position-x: -3%;
 }
-html body .agentP .agentNav li i.agent {
+html body .agentP .agentNav li .nav_IC.agent {
+  background-position-x: 23%;
+}
+html body .agentP .agentNav li .nav_IC.rule {
+  background-position-x: 48%;
+}
+html body .agentP .agentNav li .nav_IC.QA {
+  background-position-x: 74%;
+}
+html body .agentP .agentNav li .nav_IC.PP {
   background-position-x: 100%;
-}
-html body .agentP .agentNav li i.rule {
-  background-position-x: 0;
-}
-html body .agentP .agentNav li i.QA {
-  background-position-x: 0;
-}
-html body .agentP .agentNav li i.PP {
-  background-position-x: 0;
 }
 html body .agentP .agentNav li p {
   font-size: 5vw;
@@ -1162,18 +1158,6 @@ html body .agentP .agentNav li p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-}
-html body .agOther .bottom {
-  width: 100%;
-  height: 100px;
-  background: #1f1f1f;
-  padding: 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .agOther .bottom .copyright {
-  color: #ffc13c;
-  text-align: center;
 }
 html body .filter {
   display: none;
@@ -2706,13 +2690,14 @@ html body .agentPage .bottomArea button:hover, html body .agentPage .bottomArea 
 }
 html body .agentPage .bottomArea .bottom {
   width: 100%;
-  height: 20vw;
+  height: 31vw;
 }
 html body .agentPage .bottomArea .bottom .copyright {
-  font-size: 4vw;
+  font-size: 3.5vw;
+  font-weight: bold;
   color: #999999;
   text-align: center;
-  margin-top: 10vw;
+  margin-top: 3vw;
 }
 html body .agentPage .commission {
   height: 230vw;
