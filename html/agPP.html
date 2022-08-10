@@ -15,8 +15,8 @@
 </head>
 <body>
     <header>
-         <!--上部-->
-         <div class="content">
+        <!--上部-->
+        <div class="content">
             <!--語言列-->
             <div class="lang">
                 <select>
@@ -30,9 +30,9 @@
             <img class="logo" src="../images/icon/logo.png" onclick="window.location.href='../index.html'">
             <div class="user login display">
                 <!--未登入選單-->
-                    <form class="loginForm">
-                        <button class="agentSignup" type="button">申請します</button>
-                    </form>    
+                <form class="loginForm">
+                    <button class="agentSignup" type="button">申請します</button>
+                </form>    
             </div>
         </div>
     </header>
@@ -41,21 +41,20 @@
             <div class="topBanner"></div>
             <!--內容-->
             <div class="center">
-                <div class="agList">
-                    <p class="pageTitle">利用規約</p>
-                    <ul>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">はじめに</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">定義と解釈</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">パートナー適用条件</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">当社の権利と義務</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">パートナーの権利と義務</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">コミッション</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">禁止事項</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">機密情報</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">負債および責任制限</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">解約または契約の終了</li>
-                        <li onclick="window.location.href='../html/agRule_inner.html'">本規約および本契約の改正</li>
-                    </ul>
+                <div class="inner">
+                    <p class="bigTitle">個人情報保護方針</p>
+                    <div class="contentBlock">
+                        <p class="subTitle">個人情報保護方針</p>
+                        <p>AU8（以下「当サイト」）は、当サイトを運営する国のデータ保護法、および規制に準拠して、当サイトを利用またはアカウントを開設されるお客様(以下<br>、「お客様」)の個人情報を処理することを保証します。当社にて管理・保護致しますので、ご安心ください。当社はお客様の個人情報を最重要視<br>しておりますので、以下の方針に沿った事業運営に取組み、社会的責任を果たして参ります。</p>
+                    </div>
+                    <div class="contentBlock">
+                        <p class="subTitle">顧客情報保護方針</p>
+                        <p>お客様が当サイトアカウント登録の際にご入力いただいた個人情報（氏名、電話、メールアドレス、住所、生年月日等）を第三者に開示・提供<br>することは致しません。</p>
+                    </div>
+                    <div class="contentBlock">
+                        <p class="subTitle">ドメイン認証SSL</p>
+                        <p>当サイトでは、お客様の個人情報を保護するためにSSL(Secure Socket Layer)というセキュリティシステムを採用しています。お客様が入力される氏名や<br>住所、電話番号などの個人情報及び勝敗結果、入出金額は、SSLにより自動的に暗号化されて送受信しており、お客様の個人情報を外部の第三者が通信傍受<br>できないよう対策をとっております。当社は、機密事項の保護に厳重に努めておりますので、安心してご利用ください。</p>
+                    </div>
                 </div>
             </div>
             <div class="bottom">
@@ -64,27 +63,27 @@
         </div>
     </main>
     <footer class="agentP">
-            <ul class="agentNav">
-                <li>
-                    <i class="nav_IC home"></i>
-                    <p>ホームページ</p>
-                </li>
-                <li onclick="window.location.href='../index.html'">
-                    <i class="nav_IC agent"></i>
-                    <p>AU8アフィリエイト</p>
-                </li>
-                <li class="active">
-                    <i class="nav_IC rule"></i>
-                    <p>利用規約</p>
-                </li>
-                <li onclick="window.location.href='../html/agQA.html'">
-                    <i class="nav_IC QA"></i>
-                    <p>よくある質問</p>
-                </li>
-                <li onclick="window.location.href='../html/agPP.html'"><i class="nav_IC PP"></i>
-                    <p>個人情報保護方針</p>
-                </li>
-            </ul>
+        <ul class="agentNav">
+            <li>
+                <i class="nav_IC home"></i>
+                <p>ホームページ</p>
+            </li>
+            <li onclick="window.location.href='../index.html'">
+                <i class="nav_IC agent"></i>
+                <p>AU8アフィリエイト</p>
+            </li>
+            <li onclick="window.location.href='../html/agRule.html'">
+                <i class="nav_IC rule"></i>
+                <p>利用規約</p>
+            </li>
+            <li onclick="window.location.href='../html/agQA.html'">
+                <i class="nav_IC QA"></i>
+                <p>よくある質問</p>
+            </li>
+            <li  class="active" onclick="window.location.href='../html/agPP.html'"><i class="nav_IC PP"></i>
+                <p>個人情報保護方針</p>
+            </li>
+        </ul>
     </footer>
     <div class="filter">
         <!--退傭代理註冊申請彈窗-->
@@ -203,15 +202,19 @@
                         トアカウントから確認できるようにします。</p>
                     <p class="info"><span class="chapter">4.2.</span>当社は本規約に準じ、パートナーに対しコミッションを支払うものとします。</p>
                     <p class="info"><span class="chapter">4.3.</span>当社は、当社が適切と考える時点において、本アフィリエイトプログラムを終了、変更または閉鎖する<br>
-                        権利、および本規約の規定を変更する独自の決定権を持ちます。資料の変更に関しては電子メールによる通知をパートナーに送ります。</p>
-                    <p class="info"><span class="chapter">4.4.</span>当社は、当社の完全および絶対の裁量権で、新規パートナーを受け入れるか否かを判断する権利を持つものとします。</p>
-                    <p class="info"><span class="chapter">4.5.</span>下記に該当する場合、当社が最終権利を所有、およびパートナーのアカウントを閉鎖する権利を持ちます:</p>
+                        権利、および本規約の規定を変更する独自の決定権を持ちます。資料の変更に関しては電子メールによる通<br>
+                        知をパートナーに送ります。</p>
+                    <p class="info"><span class="chapter">4.4.</span>当社は、当社の完全および絶対の裁量権で、新規パートナーを受け入れるか否かを判断する権利を持つも<br>
+                        のとします。</p>
+                    <p class="info"><span class="chapter">4.5.</span>下記に該当する場合、当社が最終権利を所有、およびパートナーのアカウントを閉鎖する権利を持
+                        ちます:</p>
                         <div class="chapterBox">
                             <p class="infoChapter"><span class="chapter"> 4.5.1.</span>当社の単独の見解において、国内および国際規則を遵守するため。</p>
                             <p class="infoChapter"><span class="chapter"> 4.5.2.</span>当社の方針に従うため。</p>
                             <p class="infoChapter"><span class="chapter"> 4.5.3.</span>当社、プレイヤー、子会員又はその他第三者機関の利益を守るため。</p>
                         </div>
-                        <p class="info"><span class="chapter">4.6.</span>当社は、以下のパートナーの個人情報を、高レベルなセキュリティ、アンチマネーロンダリングの法的条件への適合、当取引関係の管理の目的で使用され、プライバシーポリシーに応じて使用及び処理<br>
+                        <p class="info"><span class="chapter">4.6.</span>当社は、以下のパートナーの個人情報を、高レベルなセキュリティ、アンチマネーロンダリングの<br>
+                            法的条件への適合、当取引関係の管理の目的で使用され、プライバシーポリシーに応じて使用及び処理<br>
                             するものとします:</p>
                         <div class="chapterBox">
                             <p class="infoChapter"><span class="chapter"> 4.6.1.</span>アフィリエイトアカウントID</p>

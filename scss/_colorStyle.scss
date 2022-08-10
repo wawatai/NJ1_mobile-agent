@@ -705,3 +705,12 @@ input:disabled {
         color: #ffffff;
     }
 }
+
+@mixin bgStyle_1 {
+    width: 100%;
+    height: calc(100vh - 96px);
+    background: #101010;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    overflow-y: auto;
+}

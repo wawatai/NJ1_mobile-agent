@@ -13,787 +13,10 @@ input:disabled {
   border: none !important;
 }
 
-header .forget i {
-  background: url("../images/icon/question.png") no-repeat;
-  background-size: 100%;
-}
-
-header .transferInfo .money i {
-  background: url("../images/icon/svg/loading_g.svg") no-repeat;
-  background-size: 100%;
-}
-
-.topGameList .prev::before,
-.topGameList .next::before {
-  background: url("../images/icon/svg/arrow_w.svg") no-repeat;
-  background-size: 100%;
-}
-
-.mainWrap .quickBox i {
-  background: url("../images/icon/quick_ic.png") no-repeat;
-  background-size: 600%;
-}
-
-.mainWrap .loveGame .textBox .love {
-  background: url("../images/icon/svg/love1.svg") no-repeat;
-  background-size: 100%;
-}
-
-.mainWrap .loveGame .textBox .love.active {
-  background: url("../images/icon/svg/love2.svg") no-repeat;
-  background-size: 100%;
-}
-
-.sideBar .inviteBtn a {
-  background: url("../images/icon/invite.gif") no-repeat;
-  background-size: contain;
-}
-
-.sideBar .goTop i {
-  background: url("../images/icon/goTop.png") no-repeat;
-  background-size: contain;
-}
-
-footer .twitter {
-  background: url("../images/icon/svg/twitter.svg") no-repeat !important;
-  background-size: contain;
-}
-
-footer .payments .bank {
-  background: url("../images/partner/footer_payments/bank.png") no-repeat center;
-}
-
-footer .payments .usdt {
-  background: url("../images/partner/footer_payments/usdt.png") no-repeat center;
-}
-
-footer .payments .vega {
-  background: url("../images/partner/footer_payments/vega.png") no-repeat center;
-}
-
-footer .payments .imove {
-  background: url("../images/partner/footer_payments/imove.png") no-repeat center;
-}
-
-footer .payments .sticpay {
-  background: url("../images/partner/footer_payments/sticpay.png") no-repeat center;
-}
-
-footer .payments .iwallet {
-  background: url("../images/partner/footer_payments/iwallet.png") no-repeat center;
-}
-
-footer .payments .tigerpay {
-  background: url("../images/partner/footer_payments/tigerpay.png") no-repeat center;
-}
-
-footer .partner .ag {
-  background: url("../images/partner/footer_partner/ag.png") no-repeat center;
-}
-
-footer .partner .sa {
-  background: url("../images/partner/footer_partner/sa.png") no-repeat center;
-}
-
-footer .partner .dg {
-  background: url("../images/partner/footer_partner/dg.png") no-repeat center;
-}
-
-footer .partner .tpg {
-  background: url("../images/partner/footer_partner/tpg.png") no-repeat center;
-}
-
-footer .partner .og {
-  background: url("../images/partner/footer_partner/og.png") no-repeat center;
-}
-
-footer .partner .sp {
-  background: url("../images/partner/footer_partner/sp.png") no-repeat center;
-}
-
-footer .partner .mg {
-  background: url("../images/partner/footer_partner/mg.png") no-repeat center;
-}
-
-footer .partner .pp {
-  background: url("../images/partner/footer_partner/pp.png") no-repeat center;
-}
-
-footer .partner .gh {
-  background: url("../images/partner/footer_partner/gh.png") no-repeat center;
-}
-
-footer .partner .elk {
-  background: url("../images/partner/footer_partner/elk.png") no-repeat center;
-}
-
-footer .partner .ftp {
-  background: url("../images/partner/footer_partner/ftp.png") no-repeat center;
-}
-
-footer .partner .pg {
-  background: url("../images/partner/footer_partner/pg.png") no-repeat center;
-}
-
-footer .partner .bng {
-  background: url("../images/partner/footer_partner/bng.png") no-repeat center;
-}
-
-footer .partner .ab {
-  background: url("../images/partner/footer_partner/ab.png") no-repeat center;
-}
-
-footer .partner .pls {
-  background: url("../images/partner/footer_partner/pls.png") no-repeat center;
-}
-
-footer .partner .rsg {
-  background: url("../images/partner/footer_partner/rsg.png") no-repeat center;
-}
-
-footer .partner .bp {
-  background: url("../images/partner/footer_partner/bp.png") no-repeat center;
-}
-
-footer .partner .redtiger {
-  background: url("../images/partner/footer_partner/redtiger.png") no-repeat center;
-}
-
-footer .partner .ifun {
-  background: url("../images/partner/footer_partner/ifun.png") no-repeat center;
-}
-
-footer .partner .redrake {
-  background: url("../images/partner/footer_partner/redrake.png") no-repeat center;
-}
-
-footer .partner .ely {
-  background: url("../images/partner/footer_partner/ely.png") no-repeat center;
-}
-
-footer .partner .atux {
-  background: url("../images/partner/footer_partner/atux.png") no-repeat center;
-}
-
-footer .partner .evoplay {
-  background: url("../images/partner/footer_partner/evoplay.png") no-repeat center;
-}
-
-footer .partner .sport {
-  background: url("../images/partner/footer_partner/sport.png") no-repeat center;
-}
-
-footer .partner .png {
-  background: url("../images/partner/footer_partner/png.png") no-repeat center;
-}
-
-footer .partner .relax {
-  background: url("../images/partner/footer_partner/relax.png") no-repeat center;
-}
-
-footer .partner .wm {
-  background: url("../images/partner/footer_partner/wm.png") no-repeat center;
-}
-
-footer .partner .ygg {
-  background: url("../images/partner/footer_partner/ygg.png") no-repeat center;
-}
-
-footer .partner .net {
-  background: url("../images/partner/footer_partner/net.png") no-repeat center;
-}
-
-footer .partner .jili {
-  background: url("../images/partner/footer_partner/jili.png") no-repeat center;
-}
-
-footer .partner .nolimit {
-  background: url("../images/partner/footer_partner/nolimit.png") no-repeat center;
-}
-
-footer .partner .evo {
-  background: url("../images/partner/footer_partner/evo.png") no-repeat center;
-}
-
-.jumpWindow .close_ic {
-  background: url("../images/icon/svg/close_w.svg") no-repeat;
-  background-size: 100%;
-}
-
-.jumpWindow.betWindow .trans_arrow {
-  background: url("../images/icon/svg/transfer_arrow.svg") no-repeat;
-  background-size: 100%;
-}
-
-.jumpWindow.loading .content div {
-  background: url("../images/icon/svg/loading_b.svg") no-repeat;
-  background-size: 100%;
-}
-
-.jumpWindow .pageBox .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.gameWrap {
-  background: url("../images/gameBG.jpg") no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
-}
-
-.slotBody .search_ic {
-  background: url("../images/icon/svg/search.svg") no-repeat top center;
-  background-size: cover;
-}
-
-.slotBody .pfName button i {
-  background: url("../images/icon/svg/arrow_w.svg") no-repeat;
-  background-size: 100%;
-}
-
-.slotBody .gameList .textBox .love {
-  background: url("../images/icon/svg/love1.svg") no-repeat;
-  background-size: 100%;
-}
-
-.slotBody .gameList .textBox .love.active {
-  background: url("../images/icon/svg/love2.svg") no-repeat;
-  background-size: 100%;
-}
-
-.eventTitle {
-  background: url("../images/eventTitleBG.png") no-repeat;
-  background-size: cover;
-}
-
-.eventBody .event_ic,
-.eventBody .event_ic::before {
-  background: url("../images/icon/svg/entire.svg") no-repeat;
-  background-size: 100%;
-}
-
-.eventDetail .back {
-  background: url("../images/icon/event_back.png") no-repeat;
-  background-size: contain;
-}
-
-.eventDetail .btnBox .twitter {
-  background: url("../images/icon/svg/twitter.svg");
-  background-size: contain;
-}
-
-.eventDetail .btnBox .telegram {
-  background: url("../images/icon/svg/telegram.svg");
-  background-size: contain;
-}
-
-.eventDetail .btnBox .wechat {
-  background: url("../images/icon/svg/wechat.svg");
-  background-size: contain;
-}
-
-.eventDetail .btnBox .facebook {
-  background: url("../images/icon/svg/facebook.svg");
-  background-size: contain;
-}
-
-.eventDetail .btnBox .line {
-  background: url("../images/icon/svg/line.svg");
-  background-size: contain;
-}
-
-.eventDetail .btnBox .link {
-  background: url("../images/icon/link.png");
-  background-size: contain;
-}
-
-.innerNav .user_ic,
-.innerNav .user_ic::before {
-  background: url("../images/icon/svg/innerNav_user.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .vip_ic,
-.innerNav .vip_ic::before {
-  background: url("../images/icon/svg/innerNav_vip.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .wallet_ic,
-.innerNav .wallet_ic::before {
-  background: url("../images/icon/svg/innerNav_wallet.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .card_ic,
-.innerNav .card_ic::before {
-  background: url("../images/icon/svg/innerNav_card.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .dealRecord_ic,
-.innerNav .dealRecord_ic::before {
-  background: url("../images/icon/svg/innerNav_dealRecord.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .betRecord_ic,
-.innerNav .betRecord_ic::before {
-  background: url("../images/icon/svg/innerNav_betRecord.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .event_ic,
-.innerNav .event_ic::before {
-  background: url("../images/icon/svg/innerNav_event.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .mail_ic,
-.innerNav .mail_ic::before {
-  background: url("../images/icon/svg/innerNav_mail.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .dividend_ic,
-.innerNav .dividend_ic::before {
-  background: url("../images/icon/svg/innerNav_dividend.svg") no-repeat;
-  background-size: 100%;
-}
-
-.innerNav .invite_ic,
-.innerNav .invite_ic::before {
-  background: url("../images/icon/svg/innerNav_invite.svg") no-repeat;
-  background-size: 100%;
-}
-
-.memberWrap .level .data_ic {
-  background: url("../images/icon/svg/data.svg") no-repeat center;
-  background-size: 65%;
-}
-
-.memberWrap .level .phone_ic {
-  background: url("../images/icon/svg/phone.svg") no-repeat center;
-  background-size: 65%;
-}
-
-.memberWrap .level .bankcard_ic {
-  background: url("../images/icon/svg/bankcard.svg") no-repeat center;
-  background-size: 65%;
-}
-
-.memberWrap .level .mail_ic {
-  background: url("../images/icon/svg/mail_w.svg") no-repeat center;
-  background-size: 65%;
-}
-
-.memberWrap .left .changePhone::before,
-.memberWrap .changePassword button::before {
-  background: url("../images/icon/edit.png") no-repeat;
-  background-size: contain;
-}
-
-.memberWrap .right .copy::before {
-  background: url("../images/icon/copy.png") no-repeat;
-  background-size: contain;
-}
-
-.memberWrap .right .qr {
-  background: url("../images/icon/qr.png") no-repeat;
-  background-size: contain;
-}
-
-.vipWrap {
-  background: url("../images/vip_info.png") no-repeat;
-  background-size: 100%;
-}
-
-.vipHeader .medal {
-  background: url("../images/icon/medal.png") no-repeat;
-  background-size: 100%;
-}
-
-.vipWrap .detailTitle .back {
-  background: url("../images/icon/svg/arrow_r.svg") no-repeat;
-  background-size: 100%;
-}
-
-.vipWrap .detailCardBox .prev,
-.vipWrap .detailCardBox .next {
-  background: url("../images/icon/svg/arrow_r.svg") no-repeat;
-  background-size: 100%;
-}
-
-.vipWrap .detailCardBox .cardBg {
-  background: url("../images/vip_card.png") no-repeat;
-  background-size: 100%;
-}
-
-.vipWrap .detailCardBox .cardBg.v2 {
-  background: url("../images/vip_card_2.png") no-repeat;
-  background-size: 100%;
-}
-
-.vipWrap .detailCardBox .cardBg.v3 {
-  background: url("../images/vip_card_3.png") no-repeat;
-  background-size: 100%;
-}
-
-.walletWrap .platformWallet .re_ic {
-  background: url("../images/icon/svg/refresh.svg") no-repeat;
-  background-size: contain;
-}
-
-.walletWrap .platformWallet .remind_ic {
-  background: url("../images/icon/remind.png") no-repeat;
-  background-size: contain;
-}
-
-.dealWrap .waterBox .arrow_ic {
-  background: url("../images/icon/svg/arrow_r.svg") no-repeat;
-  background-size: 100%;
-}
-
-.dealWrap .dealBox .page i,
-.dealWrap .waterBox .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.cardMiddle .card .addCard_ic {
-  background: url("../images/icon/svg/addCard.svg") no-repeat;
-  background-size: 100%;
-}
-
-.cardWrap .cardBox .card {
-  background: url("../images/bankCard.png") no-repeat;
-  background-size: cover;
-}
-
-.cardWrap .review {
-  background: url("../images/icon/review.png") no-repeat;
-  background-size: 100%;
-}
-
-.cardWrap .bottomWrap .idImg {
-  background: url("../images/icon/photo.png") no-repeat;
-  background-size: contain;
-}
-
-.rightSide .smallBoard .arrow {
-  background: url("../images/icon/svg/arrow_r.svg") no-repeat;
-  background-size: 100%;
-}
-
-.mailWrap.innerMode .title .arrow_ic,
-.mailWrap.innerMode .msgTitle .prev, .mailWrap.innerMode .msgTitle .next {
-  background: url("../images/icon/svg/arrow_b.svg") no-repeat;
-  background-size: contain;
-}
-
-.mailWrap .bottom .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.betWrap .fakeTable .arrow_ic {
-  background: url("../images/icon/svg/arrow_b.svg") no-repeat;
-  background-size: 100%;
-}
-
-.betWrap .fakeTable .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.eventWrap .tableWrap .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.depositWrap .top .title button i {
-  background: url("../images/icon/question_2.png") no-repeat;
-  background-size: 100%;
-}
-
-.depositWrap .list .card_ic {
-  background: url("../images/icon/svg/card.svg") no-repeat;
-  background-size: 100%;
-}
-
-.depositWrap .list .depositIC {
-  background: url("../images/icon/deposit_ic.png") no-repeat;
-  background-size: 500%;
-}
-
-.depositWrap .list .prev, .depositWrap .list .next {
-  background: url("../images/icon/svg/arrow_r.svg") no-repeat;
-  background-size: 100%;
-}
-
-.depositWrap .bottom .fakeTable .copy::before {
-  background: url("../images/icon/copy.png") no-repeat;
-  background-size: contain;
-}
-
-.rightSide .tran_ic {
-  background: url("../images/icon/svg/transfer_arrow.svg") no-repeat;
-  background-size: 100%;
-}
-
-.rightSide .re_ic {
-  background: url("../images/icon/svg/refresh.svg") no-repeat;
-  background-size: contain;
-}
-
-.rightSide .search_ic::before {
-  background: url("../images/icon/svg/search.svg") no-repeat;
-  background-size: contain;
-}
-
-.withdrawalWrap .smallTitle .reset_ic {
-  background: url("../images/icon/svg/refresh.svg") no-repeat;
-  background-size: 100%;
-}
-
-.withdrawalWrap .platformBox .db_arrow {
-  background: url("../images/icon/svg/unfold.svg") no-repeat;
-  background-size: 100%;
-}
-
-.withdrawalWrap .platformBox .remind_ic {
-  background: url("../images/icon/remind.png") no-repeat;
-  background-size: contain;
-}
-
-.transferWrap .walletTitle .reset_ic {
-  background: url("../images/icon/svg/refresh.svg") no-repeat;
-  background-size: 100%;
-}
-
-.transferWrap .platform .db_arrow {
-  background: url("../images/icon/svg/unfold.svg") no-repeat;
-  background-size: 100%;
-}
-
-.transferWrap .platform .remind_ic {
-  background: url("../images/icon/remind.png") no-repeat;
-  background-size: contain;
-}
-
-.transferWrap .platformBox .trans_ic {
-  background: url("../images/icon/svg/transfer_arrow.svg") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .nav .arrow_ic {
-  background: url("../images/icon/svg/arrow_r.svg") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .nav .bulb {
-  background: url("../images/icon/svg/bulb.svg") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .nav .problem {
-  background: url("../images/icon/svg/helpProblem.svg") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .nav .aboutUs {
-  background: url("../images/icon/svg/aboutus.svg") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .nav .downloadIC {
-  background: url("../images/icon/download.png") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .teachList .arrow_ic {
-  background: url("../images/icon/svg/arrow_b.svg") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .img.online01 {
-  background: url("../images/help/online01.png") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .img.online02 {
-  background: url("../images/help/online02.png") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .img.online03 {
-  background: url("../images/help/online03.png") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .img.online04 {
-  background: url("../images/help/online04.png") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .img.online05 {
-  background: url("../images/help/online05.png") no-repeat;
-  background-size: 100%;
-}
-
-.helpPage .upload_ic {
-  background: url("../images/icon/svg/help_upload.svg") no-repeat;
-  background-size: contain;
-}
-
-.registerWrap {
-  background: url("../images/registerBG.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.registerWrap .register_ic {
-  background: url("../images/icon/register_ic.png");
-  background-size: contain;
-}
-
-.registerWrap .eye_ic {
-  background: url("../images/icon/eye.png") no-repeat;
-  background-size: 100%;
-}
-
-.registerWrap .date_ic {
-  background: url("../images/icon/date.png") no-repeat;
-  background-size: contain;
-}
-
-.registerWrap .line_ic {
-  background: url("../images/icon/line_ic.png") no-repeat;
-  background-size: contain;
-}
-
-.inviteWrap .left .copy::before {
-  background: url("../images/icon/copy.png") no-repeat;
-  background-size: contain;
-}
-
-.inviteWrap .right .qr {
-  background: url("../images/icon/qr.png") no-repeat;
-  background-size: 100%;
-}
-
-.inviteWrap .mainImg {
-  background: url("../images/invite.jpg") no-repeat;
-  background-size: 100%;
-}
-
-.pointWrap .fakeTable .page i,
-.pointWrap .recordTable .page i {
-  background: url("../images/icon/svg/arrow_g.svg") no-repeat;
-  background-size: contain;
-}
-
-.pointWrap .fakeTable .arrow_ic {
-  background: url(../images/icon/svg/arrow_b.svg) no-repeat;
-  background-size: 100%;
-}
-
 header .logo {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.single-item img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.mainWrap .typeList img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.gameWrap .mainImg {
-  width: 675px;
-  height: 732px;
-}
-
-.gameWrap .btnBox img {
-  width: 189px;
-  height: 185px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
-}
-.gameWrap .btnBox img:hover, .gameWrap .btnBox img:active, .gameWrap .btnBox img.active {
-  -o-object-position: bottom;
-     object-position: bottom;
-}
-
-.pfName img {
-  width: auto;
-  height: 85%;
-}
-
-.slotBody .gameList img {
-  width: 100%;
-  height: 165px;
-}
-
-.eventBox .imgBox {
-  width: 792px;
-  height: 192px;
-}
-.eventBox .imgBox img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.eventDetail .imgBox {
-  width: 100%;
-  height: 267px;
-}
-.eventDetail .imgBox img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.checkEvent .imgBox {
-  width: 100%;
-  height: 400px;
-}
-.checkEvent .imgBox img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.registerWrap .title img {
-  width: 125px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.rightSide .smallBoard img {
-  width: 100%;
-}
-
-.inviteWrap .bottom img {
-  width: 100%;
-}
-
-.helpWrap img {
-  width: 100%;
 }
 
 .agentPage .topBanner,
@@ -807,7 +30,9 @@ header .logo {
 .agOther .title::before,
 .agOther .title::after,
 .agOther .pageTitle::before,
-.agOther .pageTitle::after {
+.agOther .pageTitle::after,
+.agOther .bigTitle::before,
+.agOther .bigTitle::after {
   background: url("../images/icon/agentTitle.png") no-repeat;
   background-size: 200%;
 }
@@ -856,6 +81,11 @@ header .logo {
 
 .agOther {
   background: url("../images/mobileBG.png") no-repeat;
+  background-size: 100%;
+}
+
+header .inner .back_arrow {
+  background: url("../images/icon/svg/arrow_w.svg") no-repeat;
   background-size: 100%;
 }
 
@@ -1079,6 +309,46 @@ html body header .content .loginForm .agentSignup {
   height: 36px;
   border-radius: 5px;
 }
+html body header .inner {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #1f1f1f;
+  border-bottom: solid 1px #ff4719;
+  display: none;
+}
+html body header .inner.display {
+  display: block;
+}
+html body header .inner .back_arrow {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 14px;
+}
+html body header .inner .title {
+  text-align: center;
+  color: #ffc13c;
+  font-size: 5.2vw;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 20px auto;
+  overflow: hidden;
+}
 html body footer {
   width: 100%;
   height: auto;
@@ -1104,10 +374,13 @@ html body .agentP {
 }
 html body .agentP .agentNav {
   width: 100%;
-  height: 22vw;
+  height: 58px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 5px 4px 4px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -1120,7 +393,7 @@ html body .agentP .agentNav li {
   height: 30vw;
   color: #ffc13c;
   font-weight: bold;
-  padding: 3vw;
+  padding: 2px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1129,13 +402,13 @@ html body .agentP .agentNav li:active, html body .agentP .agentNav li.active {
   color: #ff4b33;
 }
 html body .agentP .agentNav li:active i, html body .agentP .agentNav li.active i {
-  background-position-y: 108%;
+  background-position-y: 100%;
 }
 html body .agentP .agentNav li .nav_IC {
-  width: 10vw;
-  height: 11vw;
+  width: 25px;
+  height: 25px;
   display: block;
-  margin: 0 1vw;
+  margin: 0 13px;
 }
 html body .agentP .agentNav li .nav_IC.home {
   background-position-x: -3%;
@@ -1153,7 +426,7 @@ html body .agentP .agentNav li .nav_IC.PP {
   background-position-x: 100%;
 }
 html body .agentP .agentNav li p {
-  font-size: 5vw;
+  font-size: 15px;
   padding-top: 2px;
   width: 90%;
   text-align: center;
@@ -2757,7 +2030,7 @@ html body .agentPage .commission .center .rulePic {
 }
 html body .agOther {
   width: 100%;
-  height: auto;
+  height: calc(100vh - 139px);
 }
 html body .agOther .topBanner {
   height: 30vw;
@@ -2778,7 +2051,7 @@ html body .agOther .center {
 }
 html body .agOther .center .agList {
   width: 100%;
-  height: calc(100vh - 164px);
+  height: auto;
 }
 html body .agOther .center .agList .pageTitle {
   color: #ffc13c;
@@ -2838,12 +2111,119 @@ html body .agOther .center .agList ul li {
 html body .agOther .center .agList ul li:active, html body .agOther .center .agList ul li.active {
   color: #ffc13c;
 }
-html body .agOther .bottom {
+html body .agOther .center .inner {
   width: 100%;
-  height: 19vw;
+  height: auto;
 }
-html body .agOther .bottom .copyright {
-  font-size: 3.5vw;
+html body .agOther .center .inner ul {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+html body .agOther .center .inner ul.display {
+  display: block;
+}
+html body .agOther .center .inner ul li {
+  width: 100%;
+  height: auto;
+}
+html body .agOther .center .inner ul li .smallTitle {
+  font-size: 4.5vw;
+  margin: 10px 0;
+  color: #ffc13c;
+  font-weight: bold;
+}
+html body .agOther .center .inner ul li p {
+  font-size: 3.7vw;
+  margin-bottom: 8px;
+  color: #999999;
+  line-height: 6vw;
+  font-weight: bold;
+}
+html body .agOther .center .inner ul li .chapter {
+  font-size: 3.7vw;
+  margin-right: 2px;
+  color: #ffffff;
+}
+html body .agOther .center .inner ul li .keyword {
+  font-size: 3.7vw;
+  margin-right: 2px;
+  color: #ff4719;
+}
+html body .agOther .center .inner ul li .chapterBox {
+  width: 89%;
+  height: auto;
+  margin-left: 24px;
+}
+html body .agOther .center .inner ul li .subTitle {
+  font-size: 4vw;
+  margin: 10px 0;
+  color: #ffc13c;
+  font-weight: bold;
+}
+html body .agOther .center .inner ul li .qaBox {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+html body .agOther .center .inner .bigTitle {
+  color: #ffc13c;
+  font-size: 7vw;
+  font-weight: bolder;
+  text-align: center;
+  margin: 7vw 0;
+  position: relative;
+}
+html body .agOther .center .inner .bigTitle::before {
+  content: "";
+  width: 57px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: -1vw;
+  background-position-x: 0%;
+}
+html body .agOther .center .inner .bigTitle::after {
+  content: "";
+  content: "";
+  width: 57px;
+  height: 36px;
+  position: absolute;
+  top: 0vw;
+  right: -1vw;
+  background-position-x: 100%;
+}
+html body .agOther .center .inner .contentBlock {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+html body .agOther .center .inner .contentBlock .subTitle {
+  font-size: 4vw;
+  margin: 10px 0;
+  color: #ffc13c;
+  font-weight: bold;
+}
+html body .agOther .center .inner .contentBlock p {
+  font-size: 3.7vw;
+  margin-bottom: 8px;
+  color: #999999;
+  line-height: 6vw;
+  font-weight: bold;
+}
+html body .agOther .inn {
+  padding: 14vw 6vw;
+}
+html body .bottom {
+  width: 100%;
+  height: 20px;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+html body .bottom .copyright {
+  font-size: 15px;
   font-weight: bold;
   color: #999999;
   text-align: center;
@@ -2871,5 +2251,5 @@ html body .bg {
   top: 0;
   left: 0;
   z-index: -999;
-  background: #292929;
+  background: #fff;
 }
