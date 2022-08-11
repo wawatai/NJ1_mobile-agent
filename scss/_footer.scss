@@ -12,17 +12,17 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
 
     .agentNav {
         width: 100%;
-        height: 58px;
+        height: 50px;
         display: flex;
         padding: 5px 4px 4px 15px;
         box-sizing: border-box;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 100;
         background: $footer_BG2;
         border-top: 2px solid $choose_Active;
 
@@ -31,7 +31,6 @@ footer {
             height: 30vw;
             color: $mainFont_1;
             font-weight: bold;
-            padding: 2px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -45,10 +44,10 @@ footer {
             }
 
             .nav_IC {
-                width: 25px;
-                height: 25px;
+                width: 22px;
+                height: 22px;
                 display: block;
-                margin: 0 13px;
+                margin: 0 17px 1px;
 
                 &.home {
                     background-position-x: -3%;
