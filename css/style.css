@@ -79,12 +79,13 @@ header .logo {
   background-size: 200%;
 }
 
-.agOther {
+.agOther,
+.agOther_inner {
   background: url("../images/mobileBG.png") no-repeat;
   background-size: 100%;
 }
 
-header .inner .back_arrow {
+header .back_arrow {
   background: url("../images/icon/svg/arrow_w.svg") no-repeat;
   background-size: 100%;
 }
@@ -215,8 +216,9 @@ html body header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
+  position: fixed;
   border-bottom: 1px solid #ff4719;
+  z-index: 999;
 }
 html body header .content {
   width: 100%;
@@ -226,11 +228,16 @@ html body header .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  box-sizing: border-box;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  display: none;
+}
+html body header .content.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 html body header .content .lang {
   width: 80px;
@@ -280,9 +287,6 @@ html body header .content .logo {
 html body header .content .loginForm {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -320,7 +324,8 @@ html body header .content .loginForm .agentSignup {
   height: 30px;
   border-radius: 5px;
 }
-html body header .inner {
+html body header .inner,
+html body header .listPage {
   width: 100%;
   height: 44px;
   display: -webkit-box;
@@ -334,13 +339,14 @@ html body header .inner {
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #1f1f1f;
   display: none;
 }
-html body header .inner.display {
+html body header .inner.display,
+html body header .listPage.display {
   display: block;
 }
-html body header .inner .back_arrow {
+html body header .inner .back_arrow,
+html body header .listPage .back_arrow {
   position: absolute;
   width: 10px;
   height: 20px;
@@ -350,7 +356,8 @@ html body header .inner .back_arrow {
   transform: translateY(-50%);
   left: 14px;
 }
-html body header .inner .title {
+html body header .inner .title,
+html body header .listPage .title {
   text-align: center;
   color: #ffc13c;
   font-size: 5.2vw;
@@ -435,7 +442,7 @@ html body .agentP .agentNav li .nav_IC.PP {
   background-position-x: 100%;
 }
 html body .agentP .agentNav li p {
-  font-size: 15px;
+  font-size: 13px;
   padding-top: 2px;
   width: 90%;
   text-align: center;
@@ -1123,7 +1130,7 @@ html body .agentPage .bottom .copyright {
   font-weight: bold;
   color: #999999;
   text-align: center;
-  margin-top: 3vw;
+  margin-top: 2vw;
 }
 html body .agentPage .commission {
   height: 230vw;
@@ -1182,8 +1189,12 @@ html body .agentPage .commission .center .rulePic {
 }
 html body .agOther {
   width: 100%;
-  height: calc(100vh - 47px);
+  height: calc(100vh - 94px);
   overflow-y: auto;
+  display: none;
+}
+html body .agOther.display {
+  display: block;
 }
 html body .agOther .topBanner {
   height: 45vw;
@@ -1203,6 +1214,7 @@ html body .agOther .center {
 html body .agOther .center .agList {
   width: 100%;
   height: auto;
+  min-height: calc(100vh - 333px);
 }
 html body .agOther .center .agList .pageTitle {
   color: #ffc13c;
@@ -1264,76 +1276,59 @@ html body .agOther .center .QAstyle {
   height: calc(100vh - 260px);
   overflow: hidden;
 }
-html body .agOther .center .inner,
-html body .agOther .center .rulePage {
+html body .agOther .ppContent {
   width: 100%;
   height: auto;
   overflow-y: auto;
   overflow-x: hidden;
 }
-html body .agOther .center .inner ul,
-html body .agOther .center .rulePage ul {
+html body .agOther .ppContent ul {
   width: 100%;
   height: auto;
   display: none;
 }
-html body .agOther .center .inner ul.display,
-html body .agOther .center .rulePage ul.display {
+html body .agOther .ppContent ul.display {
   display: block;
 }
-html body .agOther .center .inner ul li,
-html body .agOther .center .rulePage ul li {
+html body .agOther .ppContent ul li {
   width: 100%;
   height: auto;
 }
-html body .agOther .center .inner ul li .smallTitle,
-html body .agOther .center .rulePage ul li .smallTitle {
+html body .agOther .ppContent ul li .smallTitle {
   font-size: 4.5vw;
   margin: 10px 0;
   color: #ffc13c;
   font-weight: bold;
 }
-html body .agOther .center .inner ul li p,
-html body .agOther .center .rulePage ul li p {
+html body .agOther .ppContent ul li p {
   font-size: 3.7vw;
   margin-bottom: 8px;
   color: #999999;
   line-height: 6vw;
   font-weight: bold;
 }
-html body .agOther .center .inner ul li .chapter,
-html body .agOther .center .rulePage ul li .chapter {
+html body .agOther .ppContent ul li .chapter {
   font-size: 3.7vw;
   margin-right: 2px;
   color: #ffffff;
 }
-html body .agOther .center .inner ul li .keyword,
-html body .agOther .center .rulePage ul li .keyword {
-  font-size: 3.7vw;
-  margin-right: 2px;
-  color: #ff4719;
-}
-html body .agOther .center .inner ul li .chapterBox,
-html body .agOther .center .rulePage ul li .chapterBox {
+html body .agOther .ppContent ul li .chapterBox {
   width: 89%;
   height: auto;
   margin-left: 24px;
 }
-html body .agOther .center .inner ul li .subTitle,
-html body .agOther .center .rulePage ul li .subTitle {
+html body .agOther .ppContent ul li .subTitle {
   font-size: 4vw;
   margin: 10px 0;
   color: #ffc13c;
   font-weight: bold;
 }
-html body .agOther .center .inner ul li .qaBox,
-html body .agOther .center .rulePage ul li .qaBox {
+html body .agOther .ppContent ul li .qaBox {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-html body .agOther .center .inner .bigTitle,
-html body .agOther .center .rulePage .bigTitle {
+html body .agOther .ppContent .bigTitle {
   color: #ffc13c;
   font-size: 7vw;
   font-weight: bolder;
@@ -1341,50 +1336,86 @@ html body .agOther .center .rulePage .bigTitle {
   margin: 7vw 0;
   position: relative;
 }
-html body .agOther .center .inner .bigTitle::before,
-html body .agOther .center .rulePage .bigTitle::before {
+html body .agOther .ppContent .bigTitle::before {
   content: "";
-  width: 57px;
+  width: 52px;
   height: 36px;
   position: absolute;
   top: 0;
-  left: -1vw;
+  left: 1vw;
   background-position-x: 0%;
 }
-html body .agOther .center .inner .bigTitle::after,
-html body .agOther .center .rulePage .bigTitle::after {
+html body .agOther .ppContent .bigTitle::after {
   content: "";
   content: "";
-  width: 57px;
+  width: 52px;
   height: 36px;
   position: absolute;
   top: 0vw;
-  right: -1vw;
+  right: 1vw;
   background-position-x: 100%;
 }
-html body .agOther .center .inner .contentBlock,
-html body .agOther .center .rulePage .contentBlock {
+html body .agOther .ppContent .contentBlock {
   width: 100%;
   height: auto;
   margin-top: 20px;
 }
-html body .agOther .center .inner .contentBlock .subTitle,
-html body .agOther .center .rulePage .contentBlock .subTitle {
+html body .agOther .ppContent .contentBlock .subTitle {
   font-size: 4vw;
   margin: 10px 0;
   color: #ffc13c;
   font-weight: bold;
 }
-html body .agOther .center .inner .contentBlock p,
-html body .agOther .center .rulePage .contentBlock p {
+html body .agOther .ppContent .contentBlock p {
   font-size: 3.7vw;
   margin-bottom: 8px;
   color: #999999;
   line-height: 6vw;
   font-weight: bold;
 }
-html body .agOther .inn {
-  padding: 7vw 6vw;
+html body .agOther_inner {
+  width: 100%;
+  height: calc(100vh - 94px);
+  overflow-y: auto;
+  display: none;
+}
+html body .agOther_inner.display {
+  display: block;
+}
+html body .agOther_inner .innerConent {
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 130px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px;
+  display: none;
+}
+html body .agOther_inner .innerConent.display {
+  display: block;
+}
+html body .agOther_inner .innerConent p {
+  font-size: 4.5vw;
+  color: #e2e2e2;
+  margin-bottom: 8px;
+  color: #999999;
+  line-height: 6vw;
+  font-weight: bold;
+}
+html body .agOther_inner .innerConent .chapter {
+  font-size: 3.7vw;
+  margin-right: 2px;
+  color: #ffffff;
+}
+html body .agOther_inner .innerConent .chapterBox {
+  width: 89%;
+  height: auto;
+  margin-left: 24px;
+}
+html body .agOther_inner .innerConent .keyword {
+  font-size: 3.7vw;
+  margin-right: 2px;
+  color: #ff4719;
 }
 html body .bottom {
   width: 100%;
@@ -1393,6 +1424,7 @@ html body .bottom {
   padding: 11px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
 }
 html body .bottom .copyright {
   font-size: 14px;
@@ -1405,7 +1437,7 @@ html body main {
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 0 50px;
+  padding: 45px 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

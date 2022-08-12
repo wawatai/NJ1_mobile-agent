@@ -44,26 +44,40 @@ function loading(){
 }
 
 //QA/Rule list inner 切換
-function backToPage(){
-    $("header . rulePage").removeClass("display");
-    $("header . rulePage:eq(0)").addClass("display");
-
-    $(".ruleInner").removeClass("display");
-    $(".helpWrap").addClass("display");
-}
 $(function(){
-    $(".helpBody li").click(function(){
-        var n = $(this).index();
+    // $(".agOther .agList li").click(function(){
+    //     $('.agOther_inner, .innerConent.ch1').addClass('display');
+    //     $("header .rulePage.ch1 ").addClass('display');
+    //     $("header .content").removeClass('display');
+    //     $(".agOther").removeClass('display');
+    // })
 
-        $("header .helpPage:eq("+ (n + 1) +")")
-        .addClass("display")
-        .siblings().removeClass("display");
+    // $(".agOther .agList li:nth-of-type(1)").click(function(){
+    //     $('.agOther_inner, .innerConent.ch1').addClass('display');
+    //     $("header .rulePage.ch1 ").addClass('display');
+    //     $("header .content").removeClass('display');
+    //     $(".agOther").removeClass('display');
+    // })
+    // $(".agOther .agList li:nth-of-type(2)").click(function(){
+    //     $('.agOther_inner, .innerConent.ch2').addClass('display');
+    //     $("header .rulePage.ch2 ").addClass('display');
+    //     $("header .content").removeClass('display');
+    //     $(".agOther").removeClass('display');
+    // })
+    // $(".agOther .agList li:nth-of-type(3)").click(function(){
+    //     $('.agOther_inner, .innerConent.ch3').addClass('display');
+    //     $("header .rulePage.ch3 ").addClass('display');
+    //     $("header .content").removeClass('display');
+    //     $(".agOther").removeClass('display');
+    // })
 
-        $(".helpWrap")
-        .removeClass("display");
+    $(".agOther .agList li").click(function(){
+        var n = $(this).index(); //第幾個,從 0 開始計算
 
-        $(".helpInner,.helpInner ul:eq("+ n +")")
-        .addClass("display")
-        .siblings().removeClass("display");
+        $('.agOther_inner,.innerConent:nth-of-type('+ (n + 1) +'),header .listPage:nth-of-type('+ (n + 2) +')')
+        .addClass('display');
+
+        $("header .content,.agOther")
+        .removeClass('display');
     })
 })

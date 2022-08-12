@@ -68,12 +68,13 @@ header .logo {
     background-size: 200%;
 }
 
-.agOther {
+.agOther,
+.agOther_inner {
     background: url('../images/mobileBG.png') no-repeat;
     background-size: 100%;
 }
 
-header .inner .back_arrow {
+header .back_arrow {
     background: url('../images/icon/svg/arrow_w.svg') no-repeat;
     background-size: 100%;
 }
