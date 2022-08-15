@@ -1402,6 +1402,12 @@ html body .agOther_inner .innerConent p {
   line-height: 6vw;
   font-weight: bold;
 }
+html body .agOther_inner .innerConent .subTitle {
+  font-size: 4vw;
+  margin: 10px 0;
+  color: #ffc13c;
+  font-weight: bold;
+}
 html body .agOther_inner .innerConent .chapter {
   font-size: 3.7vw;
   margin-right: 2px;
