@@ -9,6 +9,11 @@ $(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.agRegist').addClass('display');
     })
+    //報酬方式
+    $(".agRegist .content .checkBox").click(function(){
+        $(this).toggleClass('active')
+        .siblings().removeClass('active');
+    })
     //同意條款checkbox
     $(".agRegist .btnBox .readBtn").click(function(){
         $(this).toggleClass('active');

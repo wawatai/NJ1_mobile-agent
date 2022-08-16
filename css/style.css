@@ -615,7 +615,39 @@ html body .filter .jumpWindow.agRegist .content form label .remindText {
   font-weight: bold;
   color: #e11515;
   line-height: 4vw;
-  margin-bottom: 2vw;
+  margin-bottom: 5vw;
+}
+html body .filter .jumpWindow.agRegist .content form label ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+html body .filter .jumpWindow.agRegist .content form label ul li .checkBox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ffc13c;
+  margin-right: 8px;
+  background: #101010;
+  position: relative;
+  cursor: pointer;
+}
+html body .filter .jumpWindow.agRegist .content form label ul li .checkBox.active .checked {
+  opacity: 1;
+}
+html body .filter .jumpWindow.agRegist .content form label ul li .checkBox .checked {
+  font-size: 18px;
+  color: #ffc13c;
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  opacity: 0;
+}
+html body .filter .jumpWindow.agRegist .content form label ul li .checkboxName {
+  font-size: 15px;
+  color: #ffc13c;
+  margin-top: 3px;
 }
 html body .filter .jumpWindow.agRegist .content form label .btnBox {
   width: 504px;
@@ -799,29 +831,31 @@ html body .filter .jumpWindow.agTerms .content .contentBlock .smallTitle {
 html body .filter .jumpWindow.agTerms .content .contentBlock .info {
   color: #999999;
   font-size: 4vw;
-  line-height: 20px;
+  line-height: 25px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 html body .filter .jumpWindow.agTerms .content .contentBlock .info .chapter {
   color: #ffffff;
+  margin-right: 3px;
 }
 html body .filter .jumpWindow.agTerms .content .contentBlock .info .keyword {
   color: #ff4719;
 }
 html body .filter .jumpWindow.agTerms .content .contentBlock .chapterBox {
-  width: 90%;
+  width: 92%;
   height: auto;
-  margin: 5px 20px;
+  margin: 8px 18px;
 }
 html body .filter .jumpWindow.agTerms .content .contentBlock .chapterBox .infoChapter {
   color: #999999;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 4vw;
+  line-height: 25px;
   font-weight: bold;
 }
 html body .filter .jumpWindow.agTerms .content .contentBlock .chapterBox .infoChapter .chapter {
   color: #ffffff;
+  margin-right: 3px;
 }
 html body .filter .jumpWindow.agTerms .btnBox {
   width: 100%;

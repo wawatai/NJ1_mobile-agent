@@ -136,8 +136,49 @@
                                 font-weight: bold;
                                 color: $remind_sp;
                                 line-height: 4vw;
-                                margin-bottom: 2vw;
+                                margin-bottom: 5vw;
                             }
+
+                            ul {
+
+                                li {
+                                    display: flex;
+                                    margin-right: 10px;
+                                    margin-bottom: 10px;
+
+                                    .checkBox {
+                                        width: 20px;
+                                        height: 20px;
+                                        border: 1px solid $mainFont_1;
+                                        margin-right: 8px;
+                                        background: $choose_BG;
+                                        position: relative;
+                                        cursor: pointer;
+                                        
+                                        &.active {
+                                            .checked {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                        .checked {
+                                            font-size: 18px;
+                                            color: $mainFont_1;
+                                            position: absolute;
+                                            top: 1px;
+                                            left: 4px;
+                                            opacity: 0;
+                                        }
+                                    }
+        
+                                    .checkboxName {
+                                        font-size: 15px;
+                                        color: $mainFont_1;
+                                        margin-top: 3px;
+                                    }
+                                }
+                            }
+
                             
                             .btnBox {
                                 width: 504px;
@@ -325,12 +366,13 @@
                     .info {
                         color: $disable;
                         font-size: 4vw;
-                        line-height: 20px;
+                        line-height: 25px;
                         font-weight: bold;
                         letter-spacing: 1px;
 
                         .chapter {
                             color: $money;
+                            margin-right: 3px;
                         }
 
                         .keyword {
@@ -339,18 +381,19 @@
                     }
 
                     .chapterBox {
-                        width: 90%;
+                        width: 92%;
                         height: auto;
-                        margin: 5px 20px;
+                        margin: 8px 18px;
 
                         .infoChapter {
                             color: $disable;
-                            font-size: 13px;
-                            line-height: 20px;
+                            font-size: 4vw;
+                            line-height: 25px;
                             font-weight: bold;
 
                             .chapter {
                                 color: $money;
+                                margin-right: 3px;
                             }
                         }
                     }
