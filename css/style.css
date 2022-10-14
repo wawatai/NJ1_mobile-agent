@@ -14,9 +14,9 @@ input:disabled {
 }
 
 header .logo {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .agentPage .topBanner,
@@ -931,7 +931,7 @@ html body .agentPage .center .client .title::before {
   height: 36px;
   position: absolute;
   top: -1vw;
-  left: 6vw;
+  left: -2vw;
   background-position-x: 0%;
 }
 html body .agentPage .center .client .title::after {
@@ -941,7 +941,7 @@ html body .agentPage .center .client .title::after {
   height: 36px;
   position: absolute;
   top: -1vw;
-  right: 6vw;
+  right: -2vw;
   background-position-x: 100%;
 }
 html body .agentPage .center .client .subTitle {
@@ -1141,7 +1141,7 @@ html body .agentPage .bottom {
   position: relative;
 }
 html body .agentPage .bottom .copyright {
-  font-size: 14px;
+  font-size: 3vw;
   font-weight: bold;
   color: #999999;
   text-align: center;

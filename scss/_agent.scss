@@ -33,7 +33,7 @@
                     height: 36px;
                     position: absolute;
                     top: -1vw;
-                    left: 6vw;
+                    left: -2vw;
                     background-position-x: 0%;
                 }
                 &::after {
@@ -43,7 +43,7 @@
                     height: 36px;
                     position: absolute;
                     top: -1vw;
-                    right: 6vw;
+                    right: -2vw;
                     background-position-x: 100%;
                 }
             }
@@ -253,7 +253,7 @@
         position: relative;
 
         .copyright {
-            font-size: 14px;
+            font-size: 3vw;
             font-weight: bold;
             color: $disable;
             text-align: center;
