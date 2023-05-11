@@ -1,0 +1,86 @@
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.agentP {
+    width: 100%;
+    height: auto;
+    background: $gameWrapBG;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+
+    .agentNav {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        padding: 5px 4px 4px 15px;
+        box-sizing: border-box;
+        background: $footer_BG2;
+        border-top: 2px solid $choose_Active;
+
+        li {
+            width: 20vw;
+            height: 30vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $mainFont_1;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            &:active,&.active {
+                color: $footer_Hover;
+
+                i {
+                    background-position-y: 100%;
+                }
+            }
+
+            .nav_IC {
+                width: 22px;
+                height: 22px;
+                display: block;
+                margin: 0 17px 1px;
+
+                &.home {
+                    background-position-x: -2%;
+                }
+                &.agent {
+                    background-position-x: 18%;
+                }
+                &.rule {
+                    background-position-x: 39%;
+                }
+                &.QA {
+                    background-position-x: 59%;
+                }
+                &.PP {
+                    background-position-x: 80%;
+                }
+                &.PA { //2023-03-27 +
+                    background-position-x: 100%;
+                }
+            }
+
+            p {
+                font-size: 13px;
+                padding-top: 2px;
+                width: 90%;
+                text-align: center;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+}

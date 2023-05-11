@@ -1,0 +1,52 @@
+html {
+    width: 100%;
+    height: 100%;
+
+    body {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        position: relative;
+
+        &::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: $scrollBar_thumb;
+            border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: $scrollBar_track;
+            border-radius: 10px;
+        }
+
+        @import "./header";
+        @import "./footer";
+        @import "./jumpWindow";
+        @import "./agent";
+        @import "./agOther";
+
+        main {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 45px 0 50px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -999;
+            background: #fff;
+        }
+    }
+}

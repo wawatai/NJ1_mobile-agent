@@ -1,0 +1,91 @@
+////////img↓↓↓↓↓↓↓↓↓
+
+
+//logo
+header .logo {
+    height: 80%;
+    object-fit: contain;
+}
+
+//agentPage
+.agentPage .topBanner,
+.agOther .topBanner {
+    background: url('../images/mobileBanner.png') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .title::before,
+.agentPage .title::after,
+.agOther .title::before,
+.agOther .title::after,
+.agOther .pageTitle::before,
+.agOther .pageTitle::after,
+.agOther .bigTitle::before,
+.agOther .bigTitle::after {
+    background: url('../images/icon/agentTitle.png') no-repeat;
+    background-size: 200%;
+}
+
+.agRule .leftArea ul li:hover::after,.agRule .leftArea ul li.active::after,
+.agQA .leftArea ul li:hover::after,.agQA .leftArea ul li.active::after{
+    background: url('../images/icon/agLeftArea.png') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_1 {
+    background: url('../images/icon/svg/icon-01.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_2 {
+    background: url('../images/icon/svg/icon-02.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_3 {
+    background: url('../images/icon/svg/icon-03.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_4 {
+    background: url('../images/icon/svg/icon-04.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_5 {
+    background: url('../images/icon/svg/icon-05.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .rulePic {
+    background: url('../images/mobile_agentInfo.png') no-repeat;
+    background-size: 100%;
+}
+
+.filter .agRegist .title::before,
+.filter .agRegist .title::after {
+    background: url('../images/icon/starIcon.png') no-repeat;
+    background-size: 200%;
+}
+
+.agOther,
+.agOther_inner {
+    background: url('../images/mobileBG.png') no-repeat;
+    background-size: 100%;
+}
+
+header .back_arrow {
+    background: url('../images/icon/svg/arrow_w.svg') no-repeat;
+    background-size: 100%;
+}
+
+//底部選單ICON
+.agentP .agentNav li i{
+    background: url('../images/icon/footer_IC.png') no-repeat;
+    background-size: 600%; // 2023-03-27 +
+}
+
+.jumpWindow .title .close {
+    background: url('../images/icon/svg/close_w.svg') no-repeat;
+    background-size: contain;
+}

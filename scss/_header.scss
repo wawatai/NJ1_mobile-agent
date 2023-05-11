@@ -1,0 +1,122 @@
+header {
+    width: 100%;
+    height: 45px;
+    background: $header_BG_1;
+    padding: 0 14px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid $choose_Active;
+    z-index: 999;
+
+        .content {
+            width: 100%;
+            height: 45px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            position: relative;
+            display: none;
+        
+            &.display {
+                display: flex;
+            }
+            
+           
+            //語言列
+            .lang {
+                width: 80px;
+                height: 26px;
+                border: 1.5px solid $mainFont_1;
+                border-radius: 5px;
+                padding: 0;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    pointer-events: none;
+                }
+
+                &::after {
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 5px 5px 0 5px;
+                    border-color: $header_langBtn transparent;
+                    left: 66px;
+                }
+                
+                select {
+                    @include headerLang;
+                    padding: 2px 5px 0 8px;;
+                    box-sizing: border-box;
+                }
+            }
+
+            //logo
+            .logo {
+                margin: 0 auto;
+            }
+
+            .loginForm {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+
+                button {
+                    width: auto;
+                    height: 40px;
+                    @include headerBtn_1;
+
+                    &.signupBtn {
+                        @include headerBtn_2;
+                    }
+                }
+                //退傭代理註冊按鈕
+                .agentSignup {
+                    width: 96px;
+                    height: 30px;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .inner,
+        .listPage {
+            width: 100%;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            display: none;
+        
+            &.display {
+                display: block;
+            }
+
+            .back_arrow {
+                position: absolute;
+                width: 10px;
+                height: 20px;
+                display: block;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                left: 14px;
+            }
+
+            .title {
+                text-align: center;
+                color: $mainFont_1;
+                font-size: 5.2vw;
+                font-weight: bold;
+                letter-spacing: 2px;
+                margin: 10px auto;
+                overflow: hidden;
+            }
+        }
+}
